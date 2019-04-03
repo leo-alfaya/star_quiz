@@ -1,0 +1,28 @@
+html {
+    overflow-x: hidden;
+}
+
+.App {
+    witdh: 100vw;
+    height: 100vh;
+
+    .pagina-inicial {
+        min-height: 100vh;
+        .content {
+            height: 100%;
+        }
+        .titulo{
+            text-align: center;
+        }
+        .texto-introducao {
+            text-align: center;
+        }
+
+        p {
+            margin: 10px 0;
+        }
+        .botao-iniciar {
+            margin-top: 30px;
+        }
+    }
+}
