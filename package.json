@@ -2,6 +2,10 @@
   "name": "teste_invillia",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+      "npm": "3.5.2",
+      "node": "8.10.0"
+  },
   "dependencies": {
     "local-storage": "^1.4.2",
     "moment": "^2.24.0",
