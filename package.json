@@ -2,9 +2,6 @@
   "name": "teste_invillia",
   "version": "0.1.0",
   "private": true,
-<<<<<<< HEAD
-  "dependencies": {
-=======
   "engines": {
     "npm": "5.7.1",
     "node": "9.5.0"
@@ -12,7 +9,6 @@
   "dependencies": {
     "@material-ui/core": "^3.9.3",
     "@material-ui/icons": "^3.0.2",
->>>>>>> 5558fd8d4f0eb35c370b14d94241435bc8cde279
     "local-storage": "^1.4.2",
     "moment": "^2.24.0",
     "node-sass": "^4.11.0",
@@ -42,13 +38,12 @@
     "not op_mini all"
   ],
   "devDependencies": {
-<<<<<<< HEAD
-    "@material-ui/core": "^3.9.2",
-    "@material-ui/icons": "^3.0.2",
-=======
->>>>>>> 5558fd8d4f0eb35c370b14d94241435bc8cde279
     "enzyme": "^3.9.0",
     "enzyme-adapter-react-16": "^1.11.2",
+    "enzyme-to-json": "^3.3.5",
     "react-test-renderer": "^16.8.6"
+  },
+  "jest": {
+    "snapshotSerializers": ["enzyme-to-json/serializer"]
   }
 }
